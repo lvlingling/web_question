@@ -4,11 +4,52 @@
 
 参考：[http://www.imooc.com/article/281312](http://www.imooc.com/article/281312)
 
-强制（parseInt,parseFloat,number）
+强制:（parseInt,parseFloat,Number,Boolean）
 
-隐式 ==   +   if\(\)
+隐式: 
 
-## 数组实现去重
+<table>
+  <thead>
+    <tr>
+      <th style="text-align:left"></th>
+      <th style="text-align:left"></th>
+      <th style="text-align:left"></th>
+      <th style="text-align:left"></th>
+      <th style="text-align:left"></th>
+      <th style="text-align:left"></th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align:left">==</td>
+      <td style="text-align:left">+(&#x8F6C;&#x5316;&#x4E3A;&#x6570;&#x5B57;&#xFF0C;&#x548C;Number&#x5DEE;&#x4E0D;&#x591A;)</td>
+      <td
+      style="text-align:left">
+        <p>if()</p>
+        <p>for()</p>
+        <p>while()</p>
+        </td>
+        <td style="text-align:left">!(&#x8F6C;&#x5316;&#x4E3A;&#x5E03;&#x5C14;&#x503C;)</td>
+        <td style="text-align:left">
+          <p></p>
+          <p>&#x903B;&#x8F91;&#x975E;||&#x548C;&#x903B;&#x8F91;&#x4E0E;&amp;&amp;
+            <br
+            />(&#x4F1A;&#x5BF9;&#x7B2C;&#x4E00;&#x4E2A;&#x503C;&#x8FDB;&#x884C;&#x5E03;&#x5C14;&#x5224;&#x65AD;&#xFF0C;||&#x7B2C;&#x4E00;&#x4E2A;&#x4E3A;false&#xFF0C;&#x8FD4;&#x56DE;&#x7B2C;&#x4E8C;&#x4E2A;&#x503C;&#xFF0C;&amp;&amp;&#x7B2C;&#x4E00;&#x4E2A;&#x4E3A;false&#xFF0C;&#x8FD4;&#x56DE;&#x7B2C;&#x4E00;&#x4E2A;&#x503C;&#x3002;)</p>
+          <p>console.log(&quot;hello&quot; || &quot;love&quot;); //&#x8F93;&#x51FA;&#xFF1A;hello
+            <br
+            />console.log(&quot;&quot; || &quot;love&quot;); //&#x8F93;&#x51FA;&#xFF1A;love</p>
+          <p>console.log(1 &amp;&amp; &quot;love&quot;); //&#x8F93;&#x51FA;&#xFF1A;love
+            <br
+            />console.log(0 &amp;&amp; &quot;love&quot;); //&#x8F93;&#x51FA;&#xFF1A;0</p>
+        </td>
+        <td style="text-align:left">
+          <p></p>
+          <p>
+            <br />&#x4E09;&#x5143;&#x8868;&#x8FBE;&#x5F0F;</p>
+        </td>
+    </tr>
+  </tbody>
+</table>## 数组实现去重
 
 Yes, after a few months we finally found the answer. Sadly, Mike is on vacations right now so I'm afraid we are not able to provide the answer at this point.
 
@@ -53,6 +94,8 @@ Yes, after a few months we finally found the answer. Sadly, Mike is on vacations
 </table>## 数组的方法
 
 Yes, after a few months we finally found the answer. Sadly, Mike is on vacations right now so I'm afraid we are not able to provide the answer at this point.
+
+## [forEach、for in、for of 三者对比](https://www.cnblogs.com/theblogs/p/10520590.html)
 
 
 
