@@ -4,7 +4,7 @@
 
 ## javascript
 
-* [基础知识1](javascript/ji-chu-zhi-shi.md)
+* [基础知识](javascript/ji-chu-zhi-shi.md)
 
 ## css
 

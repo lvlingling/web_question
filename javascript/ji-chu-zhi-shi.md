@@ -1,4 +1,4 @@
-# 基础知识1
+# 基础知识
 
 ## 例举3种强制类型转换和2种隐式类型转换
 
@@ -51,7 +51,9 @@
   </tbody>
 </table>## 数组实现去重
 
-Yes, after a few months we finally found the answer. Sadly, Mike is on vacations right now so I'm afraid we are not able to provide the answer at this point.
+改变数组：push,pop,shift,unshift,
+
+不改变数组：
 
 ## 字符串的方法
 
